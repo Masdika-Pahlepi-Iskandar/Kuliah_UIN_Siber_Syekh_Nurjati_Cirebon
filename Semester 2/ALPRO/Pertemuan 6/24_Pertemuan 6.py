@@ -1,4 +1,11 @@
-# ===== NOMOR 2 =====
+print("=== NOMOR 1 ===")
+# Mencetak bilangan genap dari 2 sampai 10
+angka = 2
+while angka <= 10:
+    print("Bilangan genap:", angka)
+    angka += 2
+    
+    # ===== NOMOR 2 =====
 print("=== NOMOR 2 ===")  # Mencetak mundur kelipatan 3 dari 30 sampai 3
 bilangan = 30
 while bilangan >= 3:
@@ -63,7 +70,7 @@ for i in range(1, 11):
     if i % 2 == 0:
         continue
     print("Bilangan ganjil:", i)
-nrint("/\n")
+print("/\n")
 
 # ===== NOMOR 10 =====
 print("=== NOMOR 10 ===")
