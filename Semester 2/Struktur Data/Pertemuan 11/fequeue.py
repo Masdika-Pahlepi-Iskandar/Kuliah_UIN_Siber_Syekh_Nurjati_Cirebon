@@ -19,7 +19,7 @@ st.write("seluruh antrian")
 nomor = 1
 for i in st.session_state.antrian.queue:
     st.write(f"Antrian ke {nomor}: {i}")
-    nomor += 1
+    nomor +=1 
 
 # membuat tombol panggilan antrian
 if st.button("Panggil Antrian"):
