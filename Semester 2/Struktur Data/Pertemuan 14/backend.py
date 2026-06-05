@@ -17,7 +17,6 @@ Jalankan:
 # ╚══════════════════════════════════════════════════════════════════════╝
 
 import os
-import re
 import tempfile
 from datetime import datetime, time
 from typing import Optional
